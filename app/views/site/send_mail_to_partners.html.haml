@@ -1,0 +1,9 @@
+#mailer_wrap
+  %h1 Send an email to the Partners
+  
+  %form{"action"=>"/send_mail_to_partners", "method"=>"POST"}
+    %input{"type"=>"text", "name"=>"name", "value"=>"Your Name", "default"=>"Your Name"}
+    %input{"type"=>"text", "name"=>"contact", "value"=>"Your Email Address or Phone Number", "default"=>"Your Email Address or Phone Number"}
+    %textarea{"name"=>"message_body", "default"=>"Your Message"}
+    .submit
+      %input{"type"=>"submit"}

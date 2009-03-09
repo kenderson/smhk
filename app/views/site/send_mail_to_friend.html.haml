@@ -1,0 +1,9 @@
+#mailer_wrap
+  %h1 Send an email to a Friend!
+  
+  %form{"name"=>"smhkform", "id"=>"smhkform", "action"=>"/send_mail_to_friend", "method"=>"POST"}
+    %input{"type"=>"text", "name"=>"name", "value"=>"Your Name", "default"=>"Your Name", "class"=>"required email_form", "onfocus"=>"ClearForm();"}
+    %br
+    %input{"type"=>"text", "name"=>"contact", "value"=>"Your Friend's Email Address", "default"=>"Your Friend's Email Address", "class"=>"required email email_form"}
+    %textarea{"name"=>"message_body", "default"=>"Send a Message (Optional)", "class"=>"required email_form"}
+    %input{"class"=>"submit", "value"=>"Send", "type"=>"submit", "onClick" =>"$(\"#smhkform\").validate();" }
