@@ -1,6 +1,9 @@
 class SiteController < ApplicationController
   def contact
   end
+  def partners
+    @partner_name = params[:partner_name]
+  end
   def send_mail_to_partners
     if request.post?
       # note the deliver_ prefix, this is IMPORTANT

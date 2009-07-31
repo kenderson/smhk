@@ -1,6 +1,29 @@
-%h1 Index Page
-.datepicker_wrap
-  #datepicker
-  
-%p{"langtag"=>"description"}
-  Here's an example page of my jQuery plug-in: "LangChange". With it, you can  change the language of your website in a click and without reloading your page. Simply create an xml file with all your texts in the desired languages. See the example for more information and try it now by selecting the language of your choise.
+.index_wrap.clearfix
+  .right_content
+    / .datepicker_wrap
+    /   #datepicker
+    .options_menu
+      %ul
+        %li{"style"=>"border-bottom:none;"}
+          %a.btn.green.facebox{"href"=>"/send_mail_to_partners"} Send an Email to the Partners
+        %li 
+          %a.btn.green.facebox{"href"=>"/send_mail_to_friend"} Send this page to a friend
+        %li 
+          %a.btn.green{"href"=>"skype:smhklaw","onclick"=>"return skypeCheck();"} 
+            Call Fredericksburg Office 
+            %br
+            (540) 372-4046
+        %li 
+          %a.btn.green{"href"=>"skype:smhklaw","onclick"=>"return skypeCheck();"} 
+            Call Fairfax Office 
+            %br 
+            (703) 293-2960
+
+
+  .left_content
+    %h1.main_head Spencer, Mayoras, Henderson, and Koch  
+    %p{"langtag"=>"description"}
+      Welcome to the webpage of Spencer, Mayoras, Henderson, and Koch PLC. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nisl mauris, tempor fermentum malesuada a, feugiat vel ipsum. Donec leo libero, accumsan pharetra pharetra sit amet, venenatis vel velit. Cras condimentum ante ac mauris sagittis congue. Curabitur euismod tristique justo, et volutpat magna dapibus in. Vivamus a libero eget enim posuere euismod vel a mi. Donec et ante non mi aliquet accumsan quis nec dolor.
+
+
+%script{"type"=>"text/javascript", "src"=>"http://download.skype.com/share/skypebuttons/js/skypeCheck.js"}

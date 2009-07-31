@@ -2,8 +2,8 @@
   %h1 Send an email to a Friend!
   
   %form{"name"=>"smhkform", "id"=>"smhkform", "action"=>"/send_mail_to_friend", "method"=>"POST"}
-    %input{"type"=>"text", "name"=>"name", "value"=>"Your Name", "default"=>"Your Name", "class"=>"required email_form", "onfocus"=>"ClearForm();"}
+    %input{"type"=>"text", "name"=>"name", "value"=>"Your Name", "class"=>"required email_form", "onfocus"=>"if(this.value==\"Your Name\")this.value=\"\";", "onblur"=>"if(this.value==\"\")this.value=\"Your Name\";"}
     %br
-    %input{"type"=>"text", "name"=>"contact", "value"=>"Your Friend's Email Address", "default"=>"Your Friend's Email Address", "class"=>"required email email_form"}
-    %textarea{"name"=>"message_body", "default"=>"Send a Message (Optional)", "class"=>"required email_form"}
+    %input{"type"=>"text", "name"=>"contact", "value"=>"Your Friend's Email Address", "class"=>"required email email_form", "onfocus"=>"if(this.value==\"Your Friend\'s Email Address\")this.value=\"\";", "onblur"=>"if(this.value==\"\")this.value=\"Your Friend\'s Email Address\";"}
+    %textarea{"type"=>"textarea", "name"=>"message_body","value"=>"Send a Message (Optional)", "class"=>"required email_form","onfocus"=>"if(this.value==\"Send a Message (Optional)\")this.value=\"\";", "onblur"=>"if(this.value==\"\")this.value=\"Send a Message (Optional)\";" }
     %input{"class"=>"submit", "value"=>"Send", "type"=>"submit", "onClick" =>"$(\"#smhkform\").validate();" }

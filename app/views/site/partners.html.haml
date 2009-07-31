@@ -1,1 +1,17 @@
-%h1 Partners Page
+%h1.main_head Partners Page
+
+%p UNDER CONSTRUCTION - Images and beautification are yet to come!
+
+- if @partner_name == "johnspencer"
+  = render :partial=>"john_spencer"
+- elsif @partner_name == "johnmayoras"
+  = render :partial=>"john_mayoras"
+- elsif @partner_name == "ashleyhenderson"
+  = render :partial=>"ashley_henderson"
+- elsif @partner_name == "pricekoch"
+  = render :partial=>"price_koch"
+- else 
+  = render :partial=>"john_spencer"
+  = render :partial=>"john_mayoras"
+  = render :partial=>"ashley_henderson"
+  = render :partial=>"price_koch"
