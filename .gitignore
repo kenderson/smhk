@@ -3,4 +3,5 @@ tmp/*
 db/schema.rb
 *.DS_Store
 config/database.yml
-
+config/database_live.yml
+public/.htaccess
