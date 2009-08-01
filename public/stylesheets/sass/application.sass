@@ -4,15 +4,22 @@
 !a_color = #62c562
 !header1_color = #333
 !main_background_color = #666
-
+!error_color = #d94e4e
 /*
 /* Error Handling
 /*
 
-#smhkform label.error
-  background-color: #fff
-  padding: none
-  border: none
+.flash_notice
+  background: orange
+.flash_notice span
+  float: left
+  padding: 5px 3px 5px 8px
+.flash_notice a
+  color: #fff
+.flash_notice_text
+  margin: 0px 0px 0px 50px
+  padding: 5px
+  color: #fff
 	
 /*
 /* Body and Main CSS
@@ -45,7 +52,7 @@ h2
 .top_header
   height: 180px
   background: #fff url(/images/header.jpg) top left no-repeat
-.content
+.content_wrap
   background: url(/images/content_fade_b.png) top left repeat-x
   padding: 15px
 
@@ -185,7 +192,36 @@ h2
 /* Misc CSS
 /*
 
-
+#mailer_wrap
+  width: 500px
+#mailer_wrap h1
+  color = !a_color
+  font-size: 20px
+  padding: 0px 5px 25px 10px 
+.small_mailer_icon
+  float: right
+.div_spacer
+  padding: 10px
+#mailer_wrap form
+  border-top: 1px solid #ddd
+  padding-top: 10px
+#mailer_wrap form input, textarea
+  margin: 0px 0px 0px 10px
+  padding: 2px
+#mailer_wrap form textarea
+  height: 50px
+  width: 250px
+#mailer_wrap form label
+  width: 180px
+#mailer_wrap form input.error, textarea.error
+  border-width: 1px 
+  border-style: dotted 
+  border-color = !error_color
+#mailer_wrap form label.error, textarea.error
+  color = !error_color
+#mailer_wrap form label.error
+  margin-left: 10px
+  display: inline-block
 
 /*
 /* Misc CSS

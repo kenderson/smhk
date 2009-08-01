@@ -12,8 +12,9 @@
       - if flash[:notice]
         .flash_notice
           %a{"href"=>"#", "id"=>"close_notification", "onclick"=>"$(this).parent().remove();"}
-            .span X
-          = h(flash[:notice])
+            %span Close
+          .flash_notice_text
+            = h(flash[:notice])
       .page_wrap
         .top_header
         .top_menu
@@ -37,7 +38,7 @@
             %li 
               %a{"href"=>"/locations"} Locations
  
-        .content.clearfix
+        .content_wrap.clearfix
           = yield
         .page_footer
           .languages
@@ -53,12 +54,8 @@
             = DateTime.now.year
             kenderson
         
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-10020250-1");
-pageTracker._trackPageview();
-} catch(err) {}</script>
+%script{"type"=>"text/javascript"}
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+
+%script{"type"=>"text/javascript"}
+  try {var pageTracker = _gat._getTracker("UA-10020250-1"); pageTracker._trackPageview();} catch(err) {}
