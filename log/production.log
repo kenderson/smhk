@@ -7350,3 +7350,397 @@ OpenSSL::SSL::SSLError (hostname was not match with the server certificate):
     /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/bin/passenger-spawn-server:50
 
 Rendering /home/smhklaw/staging/smhk/public/500.html (500 Internal Server Error)
+
+
+Processing SiteController#index (for 68.228.13.194 at 2009-08-01 11:20:51) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://www.staging.smhklaw.com/]
+
+
+Processing SiteController#send_mail_to_friend (for 68.228.13.194 at 2009-08-01 11:20:55) [GET]
+Rendering template within layouts/facebox
+Rendering site/send_mail_to_friend
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://www.staging.smhklaw.com/send_mail_to_friend]
+
+
+Processing SiteController#send_mail_to_friend (for 68.228.13.194 at 2009-08-01 11:21:10) [POST]
+  Parameters: {"name"=>"Ken Henderson", "message_body"=>"Test from Staging Account", "contact"=>"Henderson.ken@gmail.com"}
+Sent mail to Henderson.ken@gmail.com
+
+
+ArgumentError (wrong number of arguments (3 for 2)):
+    /vendor/plugins/action_mailer_optional_tls/lib/smtp_tls.rb:33:in `check_auth_args'
+    /vendor/plugins/action_mailer_optional_tls/lib/smtp_tls.rb:33:in `do_tls_start'
+    /vendor/plugins/action_mailer_optional_tls/lib/smtp_tls.rb:18:in `send'
+    /vendor/plugins/action_mailer_optional_tls/lib/smtp_tls.rb:18:in `start'
+    /vendor/plugins/action_mailer_optional_tls/lib/smtp_tls.rb:10:in `start'
+    /vendor/plugins/action_mailer_optional_tls/lib/action_mailer_tls.rb:9:in `perform_delivery_smtp'
+    /usr/lib/ruby/gems/1.8/gems/actionmailer-2.2.2/lib/action_mailer/base.rb:526:in `__send__'
+    /usr/lib/ruby/gems/1.8/gems/actionmailer-2.2.2/lib/action_mailer/base.rb:526:in `deliver!'
+    /usr/lib/ruby/gems/1.8/gems/actionmailer-2.2.2/lib/action_mailer/base.rb:392:in `method_missing'
+    /app/controllers/site_controller.rb:20:in `send_mail_to_friend'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/railz/request_handler.rb:53:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `sass_old_process'
+    /vendor/gems/haml-2.1.0/rails/../lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/railz/request_handler.rb:38:in `process_request'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/abstract_request_handler.rb:197:in `main_loop'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/railz/application_spawner.rb:340:in `start_request_handler'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/railz/application_spawner.rb:298:in `handle_spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/utils.rb:176:in `safe_fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/railz/application_spawner.rb:296:in `handle_spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/abstract_server.rb:332:in `__send__'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/abstract_server.rb:332:in `main_loop'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/abstract_server.rb:182:in `start_synchronously'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/abstract_server.rb:149:in `start'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/railz/application_spawner.rb:192:in `start'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/spawn_manager.rb:260:in `spawn_rails_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/abstract_server_collection.rb:121:in `lookup_or_add'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/abstract_server_collection.rb:75:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/abstract_server_collection.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/spawn_manager.rb:148:in `spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/spawn_manager.rb:285:in `handle_spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/abstract_server.rb:332:in `__send__'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/abstract_server.rb:332:in `main_loop'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/abstract_server.rb:182:in `start_synchronously'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/bin/passenger-spawn-server:50
+
+Rendering /home/smhklaw/staging/smhk/public/500.html (500 Internal Server Error)
+
+
+Processing SiteController#index (for 68.228.13.194 at 2009-08-01 11:26:09) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.staging.smhklaw.com/]
+
+
+Processing SiteController#send_mail_to_friend (for 68.228.13.194 at 2009-08-01 11:26:13) [GET]
+Rendering template within layouts/facebox
+Rendering site/send_mail_to_friend
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://www.staging.smhklaw.com/send_mail_to_friend]
+
+
+Processing SiteController#send_mail_to_friend (for 68.228.13.194 at 2009-08-01 11:26:23) [POST]
+  Parameters: {"name"=>"ken Henderson", "message_body"=>"Test after TLS update", "contact"=>"Henderson.ken@gmail.com"}
+Sent mail to Henderson.ken@gmail.com
+
+
+ArgumentError (wrong number of arguments (3 for 2)):
+    /vendor/plugins/action_mailer_optional_tls/lib/smtp_tls.rb:33:in `check_auth_args'
+    /vendor/plugins/action_mailer_optional_tls/lib/smtp_tls.rb:33:in `do_tls_start'
+    /vendor/plugins/action_mailer_optional_tls/lib/smtp_tls.rb:18:in `send'
+    /vendor/plugins/action_mailer_optional_tls/lib/smtp_tls.rb:18:in `start'
+    /vendor/plugins/action_mailer_optional_tls/lib/smtp_tls.rb:10:in `start'
+    /vendor/plugins/action_mailer_optional_tls/lib/action_mailer_tls.rb:9:in `perform_delivery_smtp'
+    /usr/lib/ruby/gems/1.8/gems/actionmailer-2.2.2/lib/action_mailer/base.rb:526:in `__send__'
+    /usr/lib/ruby/gems/1.8/gems/actionmailer-2.2.2/lib/action_mailer/base.rb:526:in `deliver!'
+    /usr/lib/ruby/gems/1.8/gems/actionmailer-2.2.2/lib/action_mailer/base.rb:392:in `method_missing'
+    /app/controllers/site_controller.rb:20:in `send_mail_to_friend'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1253:in `perform_action_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `passenger_orig_perform_action'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `passenger_orig_perform_action'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/railz/request_handler.rb:53:in `perform_action'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `sass_old_process'
+    /vendor/gems/haml-2.1.0/rails/../lib/sass/plugin/rails.rb:19:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /usr/lib/ruby/gems/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/railz/request_handler.rb:38:in `process_request'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/abstract_request_handler.rb:197:in `main_loop'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/railz/application_spawner.rb:340:in `start_request_handler'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/railz/application_spawner.rb:298:in `handle_spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/utils.rb:176:in `safe_fork'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/railz/application_spawner.rb:296:in `handle_spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/abstract_server.rb:332:in `__send__'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/abstract_server.rb:332:in `main_loop'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/abstract_server.rb:182:in `start_synchronously'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/abstract_server.rb:149:in `start'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/railz/application_spawner.rb:192:in `start'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/spawn_manager.rb:260:in `spawn_rails_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/abstract_server_collection.rb:121:in `lookup_or_add'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/abstract_server_collection.rb:75:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/abstract_server_collection.rb:74:in `synchronize'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/spawn_manager.rb:253:in `spawn_rails_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/spawn_manager.rb:148:in `spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/spawn_manager.rb:285:in `handle_spawn_application'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/abstract_server.rb:332:in `__send__'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/abstract_server.rb:332:in `main_loop'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/lib/phusion_passenger/abstract_server.rb:182:in `start_synchronously'
+    /usr/lib/ruby/gems/1.8/gems/passenger-2.1.3/bin/passenger-spawn-server:50
+
+Rendering /home/smhklaw/staging/smhk/public/500.html (500 Internal Server Error)
+
+
+Processing SiteController#index (for 68.228.13.194 at 2009-08-01 11:26:41) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://www.staging.smhklaw.com/]
+
+
+Processing SiteController#send_mail_to_friend (for 68.228.13.194 at 2009-08-01 11:26:44) [GET]
+Rendering template within layouts/facebox
+Rendering site/send_mail_to_friend
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://www.staging.smhklaw.com/send_mail_to_friend]
+
+
+Processing SiteController#send_mail_to_friend (for 68.228.13.194 at 2009-08-01 11:26:53) [POST]
+  Parameters: {"name"=>"ken Henderson", "message_body"=>"Test after TLS", "contact"=>"Henderson.ken@gmail.com"}
+Sent mail to Henderson.ken@gmail.com
+Redirected to /
+Completed in 2531ms (DB: 0) | 302 Found [http://www.staging.smhklaw.com/send_mail_to_friend]
+
+
+Processing SiteController#index (for 68.228.13.194 at 2009-08-01 11:26:56) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.staging.smhklaw.com/]
+
+
+Processing SiteController#partners (for 68.228.13.194 at 2009-08-01 11:27:39) [GET]
+  Parameters: {"partner_name"=>"johnspencer"}
+Rendering template within layouts/application
+Rendering site/partners
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.staging.smhklaw.com/partners?partner_name=johnspencer]
+
+
+Processing SiteController#partners (for 68.228.13.194 at 2009-08-01 11:27:42) [GET]
+Rendering template within layouts/application
+Rendering site/partners
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.staging.smhklaw.com/partners]
+
+
+Processing SiteController#index (for 68.228.13.194 at 2009-08-01 11:27:59) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.staging.smhklaw.com/]
+
+
+Processing SiteController#partners (for 68.228.13.194 at 2009-08-01 11:28:05) [GET]
+Rendering template within layouts/application
+Rendering site/partners
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.staging.smhklaw.com/partners]
+
+
+Processing SiteController#services (for 68.228.13.194 at 2009-08-01 11:28:14) [GET]
+Rendering template within layouts/application
+Rendering site/services
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.staging.smhklaw.com/services]
+
+
+Processing SiteController#locations (for 68.228.13.194 at 2009-08-01 11:28:26) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.staging.smhklaw.com/locations]
+
+
+Processing SiteController#index (for 68.228.13.194 at 2009-08-01 11:28:31) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.staging.smhklaw.com/]
+
+
+Processing SiteController#partners (for 68.228.13.194 at 2009-08-01 11:28:40) [GET]
+Rendering template within layouts/application
+Rendering site/partners
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.staging.smhklaw.com/partners]
+
+
+Processing SiteController#partners (for 68.228.13.194 at 2009-08-01 11:29:15) [GET]
+Rendering template within layouts/application
+Rendering site/partners
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.staging.smhklaw.com/partners]
+
+
+Processing SiteController#index (for 68.228.13.194 at 2009-08-01 11:31:20) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.staging.smhklaw.com/]
+
+
+Processing SiteController#index (for 68.228.13.194 at 2009-08-01 11:32:30) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.staging.smhklaw.com/]
+
+
+Processing SiteController#index (for 68.228.13.194 at 2009-08-01 11:32:39) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.staging.smhklaw.com/]
+
+
+Processing SiteController#partners (for 68.228.13.194 at 2009-08-01 11:32:42) [GET]
+Rendering template within layouts/application
+Rendering site/partners
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.staging.smhklaw.com/partners]
+
+
+Processing SiteController#index (for 68.228.13.194 at 2009-08-01 11:32:50) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.staging.smhklaw.com/]
+
+
+Processing SiteController#index (for 68.228.13.194 at 2009-08-01 11:33:07) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.staging.smhklaw.com/]
+
+
+Processing SiteController#index (for 68.228.13.194 at 2009-08-01 11:33:13) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.staging.smhklaw.com/]
+
+
+Processing SiteController#partners (for 68.228.13.194 at 2009-08-01 11:33:19) [GET]
+Rendering template within layouts/application
+Rendering site/partners
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.staging.smhklaw.com/partners]
+
+
+Processing SiteController#index (for 68.228.13.194 at 2009-08-01 11:33:21) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://www.staging.smhklaw.com/]
+
+
+Processing SiteController#locations (for 68.228.13.194 at 2009-08-01 11:46:29) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://www.staging.smhklaw.com/locations]
+
+
+Processing SiteController#locations (for 68.228.13.194 at 2009-08-01 11:46:51) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.staging.smhklaw.com/locations]
+
+
+Processing SiteController#partners (for 68.228.13.194 at 2009-08-01 11:47:32) [GET]
+  Parameters: {"partner_name"=>"johnspencer"}
+Rendering template within layouts/application
+Rendering site/partners
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.staging.smhklaw.com/partners?partner_name=johnspencer]
+
+
+Processing SiteController#index (for 68.228.13.194 at 2009-08-01 11:47:36) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 3, DB: 0) | 200 OK [http://www.staging.smhklaw.com/]
+
+
+Processing SiteController#partners (for 68.228.13.194 at 2009-08-01 11:47:39) [GET]
+Rendering template within layouts/application
+Rendering site/partners
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.staging.smhklaw.com/partners]
+
+
+Processing SiteController#send_mail_to_friend (for 68.228.13.194 at 2009-08-01 11:48:52) [GET]
+Rendering template within layouts/facebox
+Rendering site/send_mail_to_friend
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://www.staging.smhklaw.com/send_mail_to_friend]
+
+
+Processing SiteController#index (for 68.228.13.194 at 2009-08-01 11:48:53) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://www.staging.smhklaw.com/]
+
+
+Processing SiteController#index (for 38.104.58.202 at 2009-08-01 12:01:24) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://staging.smhklaw.com/]
+
+
+Processing SiteController#index (for 128.220.3.21 at 2009-08-01 16:08:55) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://staging.smhklaw.com/]
+
+
+Processing SiteController#send_mail_to_friend (for 128.220.3.21 at 2009-08-01 16:09:06) [GET]
+Rendering template within layouts/facebox
+Rendering site/send_mail_to_friend
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://staging.smhklaw.com/send_mail_to_friend]
+
+
+Processing SiteController#locations (for 128.220.3.21 at 2009-08-01 16:09:11) [GET]
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://staging.smhklaw.com/locations]
+
+
+Processing SiteController#index (for 128.220.3.21 at 2009-08-01 16:09:33) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://staging.smhklaw.com/]
+
+
+Processing SiteController#index (for 128.220.3.21 at 2009-08-02 09:42:12) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 8ms (View: 6, DB: 0) | 200 OK [http://staging.smhklaw.com/]
+
+
+Processing SiteController#send_mail_to_friend (for 128.220.3.21 at 2009-08-02 09:42:17) [GET]
+Rendering template within layouts/facebox
+Rendering site/send_mail_to_friend
+Completed in 1ms (View: 1, DB: 0) | 200 OK [http://staging.smhklaw.com/send_mail_to_friend]
+
+
+Processing SiteController#send_mail_to_friend (for 128.220.3.21 at 2009-08-02 09:42:41) [POST]
+  Parameters: {"name"=>"Ken Henderson", "message_body"=>"TEst of color", "contact"=>"henderson.ken@gmail.com"}
+Sent mail to henderson.ken@gmail.com
+Redirected to /
+Completed in 2452ms (DB: 0) | 302 Found [http://staging.smhklaw.com/send_mail_to_friend]
+
+
+Processing SiteController#index (for 128.220.3.21 at 2009-08-02 09:42:43) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 2ms (View: 2, DB: 0) | 200 OK [http://staging.smhklaw.com/]
