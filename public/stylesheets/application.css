@@ -3,7 +3,7 @@
 /* Error Handling */
 /*  */
 .flash_notice {
-  background: orange; }
+  background: orange url(/images/content_fade_b.png) top left repeat-x; }
 
 .flash_notice span {
   float: left;
