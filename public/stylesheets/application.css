@@ -130,7 +130,24 @@ h2 {
   padding: 0px 20px; }
 
 .left_content {
-  margin: 0px 270px 0px 0px; }
+  margin: 0px 280px 0px 0px; }
+
+.index_photo {
+  float: left;
+  height: 150px;
+  width: 200px;
+  border: 1px solid #ddd;
+  background: #efefef; }
+
+.index_photo p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  color: #dddddd;
+  padding: 20px 0px; }
+
+.index_text {
+  margin: 0px 0px 0px 210px; }
 
 .options_menu ul {
   margin: 0px;
@@ -149,6 +166,61 @@ h2 {
 .datepicker_wrap {
   font-size: 10px;
   margin-bottom: 20px; }
+
+/*  */
+/* Partners CSS */
+/*  */
+.partners_wrap {
+  padding: 0px 0px 20px 0px; }
+
+.bio_wrap {
+  padding: 0px 0px 0px 0px; }
+
+.bio_wrap h2 {
+  border-bottom: 1px solid #ddd;
+  line-height: 0.7;
+  margin-bottom: 15px;
+  color: #999; }
+
+.bio_wrap h2 span {
+  float: right;
+  color: #333;
+  font-size: 13px;
+  padding: 2px 0px 0px 0px; }
+
+.bio_wrap h2 span a {
+  text-decoration: none; }
+
+.bio_image {
+  float: left;
+  height: 150px;
+  width: 200px;
+  border: 1px solid #ddd;
+  background: #efefef; }
+
+.bio_image p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  color: #dddddd;
+  padding: 20px 0px; }
+
+.bio_text {
+  margin: 0px 0px 0px 210px; }
+
+.bio_text p {
+  margin: 0px 0px 15px 0px; }
+
+.bio_contact {
+  padding: 0px 0px 30px 0px; }
+
+/*  */
+/* Services CSS */
+/*  */
+#fairfax_services {
+  height: 200px;
+  width: 200px;
+  border: 1px solid red; }
 
 /*  */
 /* Locations CSS */
@@ -200,7 +272,7 @@ h2 {
   border: none; }
 
 /*  */
-/* Misc CSS */
+/* Mailer CSS */
 /*  */
 #mailer_wrap {
   width: 500px; }

@@ -4,7 +4,7 @@
 var map_switching_time = 2000;
 
 jQuery(document).ready(function($) {
-// Form validation
+  // $("#fairfax_services").load("http://www.fairfaxcounty.gov/courts/circuit/criminal_forms.htm #centercolumn-full li");
   $("#smhkform").validate();
 
   $("#lang-en").click(function(){
