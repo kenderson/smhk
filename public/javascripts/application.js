@@ -2,11 +2,11 @@
 // 
 // var fairfax_location = "http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=4122+leonard+drive,+suite+100,+fairfax,+va,+22030&amp;sll=38.84417,-77.312572&amp;sspn=0.007922,0.013604&amp;g=4122+leonard+drive,+suite+100,+fairfax,+va,+22030&amp;ie=UTF8&amp;ll=38.851874,-77.308388&amp;spn=0.007922,0.013604&amp;z=14&amp;iwloc=addr&amp;output=embed&amp;s=AARTsJpmWNayhAP0_j4LDM4LCamzmMENbg"
 var map_switching_time = 2000;
-
+var load_string_in = "#(test)-(test)"
 jQuery(document).ready(function($) {
   // $("#fairfax_services").load("http://www.fairfaxcounty.gov/courts/circuit/criminal_forms.htm #centercolumn-full li");
   $("#smhkform").validate();
-
+  
   $("#lang-en").click(function(){
     $("body").changeLang({lang: "en", file: "../files/lang-example.xml"});
   });
