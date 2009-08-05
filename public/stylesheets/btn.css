@@ -18,7 +18,7 @@
 
 * html .btn { border: 3px double #aaa; }
 * html .btn.blue { border-color: #2ae; }
-* html .btn.green { border-color: #9d4; }
+* html .btn.green { border-color: #62c562; }
 * html .btn.pink { border-color: #e1a; }
-* html .btn:hover { border-color: #a00; }
+* html .btn:hover { border-color: #666; }
 

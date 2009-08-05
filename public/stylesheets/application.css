@@ -33,11 +33,18 @@ a {
 h1 {
   color: #333333;
   margin: 10px 0px 10px 0px;
-  padding: 0px; }
+  padding: 0px;
+  font-size: 22px; }
 
 h2 {
   margin: 10px 0px 5px 0px;
-  padding: 0px; }
+  padding: 0px;
+  font-size: 20px; }
+
+h3 {
+  margin: 10px 0px 5px 0px;
+  padding: 0px;
+  font-size: 18px; }
 
 #page_frame {
   width: 850px;
@@ -58,38 +65,48 @@ h2 {
 /* Menu CSS */
 /*  */
 .top_menu {
-  background-color: #fff; }
+  background-color: #fff;
+  background: #62c562 url(/images/menu_bg.gif) top left repeat-x; }
 
 .top_menu ul {
-  background: #333 url(/images/menu_bg.gif) top left repeat-x;
-  padding: 0;
-  margin: 0; }
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  list-style: none; }
 
 .top_menu li {
-  display: inline-block;
-  padding: 7px 15px; }
-  .top_menu li a {
-    text-decoration: none;
-    font-size: 18px;
-    color: #363636; }
-.top_menu li:hover {
+  float: left;
+  padding: 0px;
+  margin: 0px; }
+
+.top_menu li a {
+  display: block;
+  padding: 8px 15px 6px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #363636; }
+
+.top_menu li a:hover {
   background: #cecece; }
 
 .partners_menu_flyout {
   position: absolute;
-  margin: 7px 0px 7px -17px; }
+  display: block;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+  width: 135px; }
 
-.partners_menu_flyout ul {
+.partners_menu_flyout {
   border: 2px solid #62c562;
   border-top: none;
   background: #fff; }
 
-.partners_menu_flyout li {
+.partners_menu_flyout .menu_sub_div {
   display: block;
   background: #fff url(/images/content_fade_b.png) top left repeat-x; }
-  .partners_menu_flyout li a {
+  .partners_menu_flyout .menu_sub_div a {
+    display: block;
     font-size: 12px;
-    padding: 5px; }
+    padding: 7  px 7px; }
 
 /*  */
 /* Footer CSS */
@@ -219,8 +236,7 @@ h2 {
 /*  */
 #fairfax_services {
   height: 200px;
-  width: 200px;
-  border: 1px solid red; }
+  width: 200px; }
 
 /*  */
 /* Locations CSS */

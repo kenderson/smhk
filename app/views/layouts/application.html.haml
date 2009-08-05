@@ -8,6 +8,7 @@
     /[if IE]
     = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
     <script src="http://codinginparadise.org/projects/purple-include/purple-include.js"></script>
+    %link{"rel"=>"shortcut icon", "href"=>"/images/favicon.ico"}
 %body  
   #page_frame
     - if flash[:notice]
@@ -19,21 +20,20 @@
     .page_wrap
       .top_header
       .top_menu
-        %ul
+        %ul.clearfix
           %li 
             %a{"href"=>"/"} Home
           %li.partners_menu{"onmouseover"=>"$('.partners_menu_flyout').show();","onmouseout"=>"$('.partners_menu_flyout').hide();"} 
             %a{"href"=>"/partners"} Partners
             .partners_menu_flyout{"style"=>"display:none;"}
-              %ul
-                %li 
-                  %a{"href"=>"/partners?partner_name=johnspencer"} John Spencer
-                %li 
-                  %a{"href"=>"/partners?partner_name=johnmayoras"} John Mayoras
-                %li 
-                  %a{"href"=>"/partners?partner_name=ashleyhenderson"} Ashley Henderson
-                %li
-                  %a{"href"=>"/partners?partner_name=pricekoch"} Price Koch
+              .menu_sub_div 
+                %a{"href"=>"/partners?partner_name=johnspencer"} John Spencer
+              .menu_sub_div
+                %a{"href"=>"/partners?partner_name=johnmayoras"} John Mayoras
+              .menu_sub_div
+                %a{"href"=>"/partners?partner_name=ashleyhenderson"} Ashley Henderson
+              .menu_sub_div
+                %a{"href"=>"/partners?partner_name=pricekoch"} Price Koch
           %li 
             %a{"href"=>"/services"} Services
           %li 
