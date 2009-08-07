@@ -5,4 +5,5 @@ db/schema.rb
 config/database.yml
 config/database_live.yml
 config/environment.rb
+/config/environment.rb
 public/.htaccess
