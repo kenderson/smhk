@@ -8830,3 +8830,15 @@ Processing SiteController#partners (for 68.228.13.194 at 2009-08-06 19:17:39) [G
 Rendering template within layouts/application
 Rendering site/partners
 Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.staging.smhklaw.com/partners]
+
+
+Processing SiteController#partners (for 68.228.13.194 at 2009-08-06 19:30:41) [GET]
+Rendering template within layouts/application
+Rendering site/partners
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://www.staging.smhklaw.com/partners]
+
+
+Processing SiteController#partners (for 68.228.13.194 at 2009-08-06 19:31:25) [GET]
+Rendering template within layouts/application
+Rendering site/partners
+Completed in 4ms (View: 4, DB: 0) | 200 OK [http://www.staging.smhklaw.com/partners]
