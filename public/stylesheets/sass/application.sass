@@ -2,9 +2,11 @@
 
 !text_color = #333
 !a_color = #62c562
+!a_hover_color = #ed9100
 !header1_color = #333
 !main_background_color = #808080
 !error_color = #d94e4e
+!green = #64b764
 /*
 /* Error Handling
 /*
@@ -35,6 +37,11 @@ body
 
 a
   color = !a_color
+  text-decoration: none
+  border-bottom: 1px dotted
+a:hover
+  color = !a_hover_color
+  
 h1
   color = !header1_color
   margin: 10px 0px 10px 0px
@@ -82,6 +89,7 @@ h3
   text-decoration: none
   font-size: 18px
   color: #363636
+  border: none
 .top_menu li a:hover
   background: #cecece
 .partners_menu_flyout
@@ -135,12 +143,13 @@ h3
 .main_head
   margin-top: 0px
 .right_content
+  display: none
   float: right
-  width: 210px
+  width: 220px
   border-left: 1px solid #efefef 
   padding: 0px 20px
 .left_content
-  margin: 0px 280px 0px 0px
+  margin: 0px 290px 0px 0px
 .index_photo
   float: left
   height: 150px
@@ -157,8 +166,8 @@ h3
   margin: 0px 0px 0px 210px
   padding: 0px
 .options_menu ul
-  margin: 0px
-  padding: 0px
+  margin: 0px 0px 0px 0px
+  padding: 0px 0px 0px 0px
 .options_menu li
   list-style: none
   padding: 10px 10px
@@ -168,6 +177,20 @@ h3
     font-weight: bold
     margin: 5px 0px
     color: #fff
+    border: none
+.quick_contact_menu ul
+  margin: 0px
+  padding: 0px
+.quick_contact_menu li
+  list-style: none
+  padding: 5px 10px
+  a
+    font-size: 13px
+    font-weight: bold
+    margin: 0px 0px
+.quick_contact_menu h2
+  margin: 0px
+
 .datepicker_wrap
   font-size: 10px
   margin-bottom: 20px
@@ -216,7 +239,6 @@ h3
 /*
 
 .resource_list h2
-  font-style: italic
   padding-bottom: 0px
   margin-bottom: 0px
 .resource_list h3
@@ -254,7 +276,7 @@ h3
   background: #efefef
   border-bottom: 1px solid #fff
 .location_table_row
-  width: 170px
+  width: 220px
   padding: 3px 15px 3px 10px
   background: #efefef
   border-bottom: 1px solid #fff
