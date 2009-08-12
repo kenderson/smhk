@@ -6,7 +6,7 @@ var load_string_in = "#(test)-(test)"
 jQuery(document).ready(function($) {
   // $("#fairfax_services").load("http://www.fairfaxcounty.gov/courts/circuit/criminal_forms.htm #centercolumn-full li");
   $("#smhkform").validate();
-  $(".right_content").slideDown(2000);
+  // $(".right_content").slideDown(2000);
   $("#lang-en").click(function(){
     $("body").changeLang({lang: "en", file: "../files/lang-example.xml"});
   });
