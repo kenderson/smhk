@@ -1,8 +1,10 @@
 log/*
+/log/*
 tmp/*
 db/schema.rb
 *.DS_Store
 config/database.yml
 config/database_live.yml
 config/environment.rb
+/config/environment.rb
 public/.htaccess

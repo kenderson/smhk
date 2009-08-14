@@ -20,5 +20,5 @@
 * html .btn.blue { border-color: #2ae; }
 * html .btn.green { border-color: #62c562; }
 * html .btn.pink { border-color: #e1a; }
-* html .btn:hover { border-color: #666; }
+* html .btn:hover { border-color: #666; color:#fff; }
 
