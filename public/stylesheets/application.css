@@ -33,7 +33,7 @@ a {
   border-bottom: 1px dotted; }
 
 a:hover {
-  color: #e1d400; }
+  color: #60abf8; }
 
 h1 {
   color: #333333;
@@ -49,7 +49,7 @@ h2 {
 h3 {
   margin: 10px 0px 5px 0px;
   padding: 0px;
-  font-size: 18px; }
+  font-size: 16px; }
 
 .right_content h2, .right_content h3, .right_content li, .right_content p {
   color: #999; }
@@ -98,7 +98,11 @@ h3 {
   border: none; }
 
 .top_menu li a:hover {
-  background: #cecece;
+  background-color: #cecece;
+  color: #363636; }
+
+.top_menu li a.current {
+  background: #e0e0e0;
   color: #363636; }
 
 .partners_menu_flyout {
@@ -140,6 +144,9 @@ h3 {
   text-decoration: underline;
   cursor: pointer; }
 
+.lang-choice span:hover {
+  color: #60abf8; }
+
 .copy_right {
   color: #efefef;
   font-size: 10px;
@@ -159,19 +166,21 @@ h3 {
 
 .right_content {
   float: right;
-  width: 220px;
-  border-left: 1px solid #efefef;
+  width: 215px;
   padding: 0px 20px; }
 
 .left_content {
-  margin: 0px 290px 0px 0px; }
+  margin: 0px 260px 0px 0px;
+  padding: 0px 20px 0px 0px;
+  border-right: 1px solid #efefef; }
 
 .index_photo {
-  float: left;
-  height: 150px;
-  width: 200px;
+  float: right;
+  height: 200px;
+  width: 250px;
   border: 1px solid #ddd;
-  background: #efefef; }
+  background: #efefef;
+  margin: 20px 10px 10px 20px; }
 
 .index_photo p {
   text-align: center;
@@ -180,8 +189,15 @@ h3 {
   color: #dddddd;
   padding: 20px 0px; }
 
+.index_text .header {
+  font-style: italic;
+  font-weight: bold;
+  display: inline;
+  font-size: 17px;
+  color: #f8bd60; }
+
 .index_text {
-  margin: 0px 0px 0px 210px;
+  margin: 0px 0px 0px 0px;
   padding: 0px; }
 
 .options_menu ul {
@@ -212,7 +228,7 @@ h3 {
     margin: 0px 0px; }
 
 .quick_contact_menu h2 {
-  margin: 0px; }
+  margin: 6px 0px 0px 0px; }
 
 .datepicker_wrap {
   font-size: 10px;
@@ -272,17 +288,17 @@ h3 {
   padding-bottom: 0px;
   margin-bottom: 0px; }
 
+.resource_list h3 {
+  margin: 20px 0px 0px 0px;
+  color: #f8bd60; }
 
 .resource_list li {
-  padding: 10px; }
+  padding: 5px 10px; }
 
 .resource_list ul {
   list-style: none;
   padding: 0px;
   margin: 0px 0px 30px 10px; }
-
-#resource_list a {
-  color: #62c562; }
 
 /*  */
 /* Locations CSS */
@@ -324,7 +340,7 @@ h3 {
   border-bottom: 1px dotted; }
 
 .map_link:hover {
-  color: #e1d400; }
+  color: #60abf8; }
 
 .dynamic_map_wrap {
   float: right;

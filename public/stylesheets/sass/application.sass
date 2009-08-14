@@ -2,11 +2,12 @@
 
 !text_color = #333
 !a_color = #62c562
-!a_hover_color = #e1d400
+!a_hover_color = #60abf8
 !header1_color = #333
 !main_background_color = #808080
 !error_color = #d94e4e
 !green = #64b764
+!header_accent = #f8bd60
 /*
 /* Error Handling
 /*
@@ -51,7 +52,7 @@ h2
 h3
   margin: 10px 0px 5px 0px
   padding: 0px
-  font-size: 18px
+  font-size: 16px
 .right_content h2,.right_content h3,.right_content li,.right_content p
   color: #999
 .right_content h2 
@@ -95,8 +96,12 @@ h3
   color: #363636
   border: none
 .top_menu li a:hover
-  background: #cecece
+  background-color: #cecece
   color: #363636
+.top_menu li a.current
+  background: #e0e0e0
+  color: #363636
+
 .partners_menu_flyout
   position: absolute
   display: block
@@ -124,7 +129,6 @@ h3
   background-color: #363636
 .small_icon
   padding: 5px 10px
-
 .languages
   float: right
   color: #cecece
@@ -132,6 +136,8 @@ h3
 .lang-choice span
   text-decoration: underline
   cursor: pointer
+.lang-choice span:hover
+  color = !a_hover_color
 .copy_right
   color: #efefef
   font-size: 10px
@@ -149,25 +155,34 @@ h3
   margin-top: 0px
 .right_content
   float: right
-  width: 220px
-  border-left: 1px solid #efefef 
+  width: 215px
   padding: 0px 20px
+
 .left_content
-  margin: 0px 290px 0px 0px
+  margin: 0px 260px 0px 0px
+  padding: 0px 20px 0px 0px
+  border-right: 1px solid #efefef 
 .index_photo
-  float: left
-  height: 150px
-  width: 200px
+  float: right
+  height: 200px
+  width: 250px
   border: 1px solid #ddd
   background: #efefef
+  margin: 20px 10px 10px 20px
 .index_photo p
   text-align: center
   font-weight: bold
   font-size: 25px
   color: #dddddd
-  padding: 20px 0px 
+  padding: 20px 0px
+.index_text .header
+  font-style: italic
+  font-weight: bold
+  display: inline
+  font-size: 17px
+  color = !header_accent
 .index_text
-  margin: 0px 0px 0px 210px
+  margin: 0px 0px 0px 0px
   padding: 0px
 .options_menu ul
   margin: 0px 0px 0px 0px
@@ -193,7 +208,7 @@ h3
     font-weight: bold
     margin: 0px 0px
 .quick_contact_menu h2
-  margin: 0px
+  margin: 6px 0px 0px 0px
 
 .datepicker_wrap
   font-size: 10px
@@ -246,15 +261,15 @@ h3
   padding-bottom: 0px
   margin-bottom: 0px
 .resource_list h3
+  margin: 20px 0px 0px 0px
+  color = !header_accent
 .resource_list li
-  padding: 10px
+  padding: 5px 10px
 .resource_list ul
   list-style: none
   padding: 0px
   margin: 0px 0px 30px 10px
 
-#resource_list a
-  color = !a_color
 /*
 /* Locations CSS
 /*

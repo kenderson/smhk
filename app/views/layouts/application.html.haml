@@ -25,7 +25,7 @@
             %li 
               %a{"href"=>"/"} Home
             %li.partners_menu{"onmouseover"=>"$('.partners_menu_flyout').show();","onmouseout"=>"$('.partners_menu_flyout').hide();"} 
-              %a{"href"=>"/partners"} Partners
+              %a{"href"=>"/partners", :class=>((params['action'] == "partners") ? "current" : "")} Partners
               .partners_menu_flyout{"style"=>"display:none;"}
                 .menu_sub_div 
                   %a{"href"=>"/partners?partner_name=johnspencer"} John Spencer
@@ -36,9 +36,9 @@
                 .menu_sub_div
                   %a{"href"=>"/partners?partner_name=pricekoch"} Price Koch
             %li 
-              %a{"href"=>"/services"} Services
+              %a{"href"=>"/services", :class=>((params['action'] == "services") ? "current" : "")} Services
             %li 
-              %a{"href"=>"/locations"} Locations
+              %a{"href"=>"/locations", :class=>((params['action'] == "locations") ? "current" : "")} Locations
 
         .content_wrap.clearfix
           = yield
