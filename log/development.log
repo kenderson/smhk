@@ -1212,3 +1212,94 @@ Processing SiteController#locations (for 127.0.0.1 at 2009-08-14 16:52:16) [GET]
 Rendering template within layouts/application
 Rendering site/locations
 Completed in 98ms (View: 49, DB: 0) | 200 OK [http://10.0.1.3/locations]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-08-16 13:10:41) [GET]
+  [4;36;1mSQL (20.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 89ms (View: 59, DB: 20) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-08-16 13:11:06) [GET]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 257ms (View: 53, DB: 0) | 200 OK [http://127.0.0.1/locations]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-08-16 13:11:15) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 82ms (View: 49, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-08-16 13:11:46) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 76ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-08-16 13:12:13) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 76ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-08-16 13:12:15) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 76ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-08-16 13:12:31) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 76ms (View: 46, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-08-16 13:12:36) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 76ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-08-16 13:12:45) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 78ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-08-16 13:12:59) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 76ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-08-16 13:13:10) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 77ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-08-16 13:14:44) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 110ms (View: 52, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-08-16 13:14:59) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 81ms (View: 51, DB: 0) | 200 OK [http://127.0.0.1/]
