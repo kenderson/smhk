@@ -1303,3 +1303,1000 @@ Processing SiteController#index (for 127.0.0.1 at 2009-08-16 13:14:59) [GET]
 Rendering template within layouts/application
 Rendering site/index
 Completed in 81ms (View: 51, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-12 11:42:20) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 125ms (View: 74, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-12 12:01:33) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 101ms (View: 49, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-12 12:01:55) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 77ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-12 12:07:18) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 79ms (View: 49, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-12 12:07:36) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 100ms (View: 65, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-12 12:09:18) [GET]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 85ms (View: 52, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-12 12:09:35) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 82ms (View: 50, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-09-12 12:09:50) [GET]
+  Parameters: {"partner_name"=>"johnmayoras"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_mayoras (0.6ms)
+Completed in 85ms (View: 74, DB: 0) | 200 OK [http://127.0.0.1/partners?partner_name=johnmayoras]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-09-12 12:09:57) [GET]
+  Parameters: {"partner_name"=>"johnmayoras"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_mayoras (0.6ms)
+Completed in 170ms (View: 160, DB: 0) | 200 OK [http://127.0.0.1/partners?partner_name=johnmayoras]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-09-12 12:10:02) [GET]
+  Parameters: {"partner_name"=>"johnspencer"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_spencer (0.6ms)
+Completed in 75ms (View: 65, DB: 0) | 200 OK [http://127.0.0.1/partners?partner_name=johnspencer]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-09-12 12:10:07) [GET]
+  Parameters: {"partner_name"=>"ashleyhenderson"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_ashley_henderson (0.6ms)
+Completed in 78ms (View: 67, DB: 0) | 200 OK [http://127.0.0.1/partners?partner_name=ashleyhenderson]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-09-12 12:14:23) [GET]
+  Parameters: {"partner_name"=>"johnspencer"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_spencer (0.6ms)
+Completed in 75ms (View: 65, DB: 0) | 200 OK [http://127.0.0.1/partners?partner_name=johnspencer]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:14:34) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 83ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:20:39) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 69ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:20:57) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 69ms (View: 46, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:21:23) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 69ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:21:40) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 69ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:21:49) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 69ms (View: 46, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:22:03) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 70ms (View: 48, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-09-12 12:22:24) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 105ms (View: 49, DB: 0) | 200 OK [http://127.0.0.1/locations]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-12 12:22:36) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 76ms (View: 46, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-12 12:23:55) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 75ms (View: 46, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-12 12:24:46) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 77ms (View: 48, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-12 12:25:45) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 77ms (View: 46, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-12 12:30:32) [GET]
+  [4;36;1mSQL (21.7ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 90ms (View: 48, DB: 22) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:30:35) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Haml::SyntaxError (Illegal nesting: content can't be both given on the same line as %ul and nested within it.):
+    /app/views/site/services.html.haml:22
+    /vendor/gems/haml-2.1.0/lib/haml/precompiler.rb:588:in `render_tag'
+    /vendor/gems/haml-2.1.0/lib/haml/precompiler.rb:198:in `process_line'
+    /vendor/gems/haml-2.1.0/lib/haml/precompiler.rb:165:in `precompile'
+    /vendor/gems/haml-2.1.0/lib/haml/engine.rb:103:in `initialize'
+    /vendor/gems/haml-2.1.0/rails/../lib/haml/template/plugin.rb:21:in `new'
+    /vendor/gems/haml-2.1.0/rails/../lib/haml/template/plugin.rb:21:in `compile'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_view/template_handler.rb:11:in `call'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:21:in `_unmemoized_compiled_source'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:57:in `compiled_source'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:25:in `__send__'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:25:in `memoize_all'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:22:in `each'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:22:in `memoize_all'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:17:in `freeze'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:70:in `_pick_template'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1313:in `send'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1313:in `template_exists?'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1258:in `perform_action_without_filters'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `sass_old_process'
+    /vendor/gems/haml-2.1.0/rails/../lib/sass/plugin/rails.rb:19:in `process'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Users/Kenderson/.gem/ruby/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/Kenderson/.gem/ruby/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendered /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (124.7ms)
+Rendered /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (1.6ms)
+Rendering /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-12 12:30:36) [GET]
+
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Users/Kenderson/.gem/ruby/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/Kenderson/.gem/ruby/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:31:19) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Haml::SyntaxError (Illegal nesting: content can't be both given on the same line as %ul and nested within it.):
+    /app/views/site/services.html.haml:22
+    /vendor/gems/haml-2.1.0/lib/haml/precompiler.rb:588:in `render_tag'
+    /vendor/gems/haml-2.1.0/lib/haml/precompiler.rb:198:in `process_line'
+    /vendor/gems/haml-2.1.0/lib/haml/precompiler.rb:165:in `precompile'
+    /vendor/gems/haml-2.1.0/lib/haml/engine.rb:103:in `initialize'
+    /vendor/gems/haml-2.1.0/rails/../lib/haml/template/plugin.rb:21:in `new'
+    /vendor/gems/haml-2.1.0/rails/../lib/haml/template/plugin.rb:21:in `compile'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_view/template_handler.rb:11:in `call'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:21:in `_unmemoized_compiled_source'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:57:in `compiled_source'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:25:in `__send__'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:25:in `memoize_all'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:22:in `each'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:22:in `memoize_all'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:17:in `freeze'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:70:in `_pick_template'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1313:in `send'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1313:in `template_exists?'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1258:in `perform_action_without_filters'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `sass_old_process'
+    /vendor/gems/haml-2.1.0/rails/../lib/sass/plugin/rails.rb:19:in `process'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Users/Kenderson/.gem/ruby/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/Kenderson/.gem/ruby/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendered /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (122.2ms)
+Rendered /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (1.4ms)
+Rendering /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-12 12:31:19) [GET]
+
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Users/Kenderson/.gem/ruby/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/Kenderson/.gem/ruby/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:31:50) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 72ms (View: 49, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:32:03) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Haml::SyntaxError (Illegal nesting: content can't be both given on the same line as %ul and nested within it.):
+    /app/views/site/services.html.haml:22
+    /vendor/gems/haml-2.1.0/lib/haml/precompiler.rb:588:in `render_tag'
+    /vendor/gems/haml-2.1.0/lib/haml/precompiler.rb:198:in `process_line'
+    /vendor/gems/haml-2.1.0/lib/haml/precompiler.rb:165:in `precompile'
+    /vendor/gems/haml-2.1.0/lib/haml/engine.rb:103:in `initialize'
+    /vendor/gems/haml-2.1.0/rails/../lib/haml/template/plugin.rb:21:in `new'
+    /vendor/gems/haml-2.1.0/rails/../lib/haml/template/plugin.rb:21:in `compile'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_view/template_handler.rb:11:in `call'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_view/renderable.rb:21:in `_unmemoized_compiled_source'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:57:in `compiled_source'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:25:in `__send__'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:25:in `memoize_all'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:22:in `each'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:22:in `memoize_all'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:17:in `freeze'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/memoizable.rb:70:in `_pick_template'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1313:in `send'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1313:in `template_exists?'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:1258:in `perform_action_without_filters'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:617:in `call_filters'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /usr/local/lib/ruby/1.8/benchmark.rb:293:in `measure'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/rescue.rb:136:in `perform_action_without_caching'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:13:in `perform_action'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activerecord-2.2.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activerecord-2.2.2/lib/active_record/query_cache.rb:8:in `cache'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/caching/sql_cache.rb:12:in `perform_action'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `send'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:524:in `process_without_filters'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/filters.rb:606:in `process_without_session_management_support'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/session_management.rb:134:in `sass_old_process'
+    /vendor/gems/haml-2.1.0/rails/../lib/sass/plugin/rails.rb:19:in `process'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/base.rb:392:in `process'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:183:in `handle_request'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Users/Kenderson/.gem/ruby/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/Kenderson/.gem/ruby/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendered /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_trace (221.0ms)
+Rendered /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/_request_and_response (1.4ms)
+Rendering /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-09-12 12:32:03) [GET]
+
+
+ActionController::RoutingError (No route matches "/favicon.ico" with {:method=>:get}):
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/recognition_optimisation.rb:66:in `recognize_path'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/routing/route_set.rb:386:in `recognize'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:182:in `handle_request'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:110:in `dispatch_unlocked'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:123:in `dispatch'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `synchronize'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:122:in `dispatch'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:132:in `dispatch_cgi'
+    /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/dispatcher.rb:39:in `dispatch'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:76:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `synchronize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/../lib/mongrel/rails.rb:74:in `process'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:282:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `each'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/configurator.rb:281:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:128:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel/command.rb:212:in `run'
+    /usr/local/lib/ruby/gems/1.8/gems/mongrel-1.1.5/bin/mongrel_rails:281
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load_without_new_constant_marking'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:142:in `load'
+    /Users/Kenderson/.gem/ruby/1.8/gems/rails-2.2.2/lib/commands/servers/mongrel.rb:64
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/Kenderson/.gem/ruby/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:153:in `require'
+    /Users/Kenderson/.gem/ruby/1.8/gems/rails-2.2.2/lib/commands/server.rb:49
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+    /usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+    ./script/server:3
+
+Rendering /Users/Kenderson/.gem/ruby/1.8/gems/actionpack-2.2.2/lib/action_controller/templates/rescues/layout.erb (not_found)
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:33:50) [GET]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 84ms (View: 49, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-09-12 12:34:19) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_spencer (2.3ms)
+Rendered site/_john_mayoras (0.6ms)
+Rendered site/_ashley_henderson (0.6ms)
+Rendered site/_price_koch (0.6ms)
+Completed in 119ms (View: 109, DB: 0) | 200 OK [http://127.0.0.1/partners]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:35:43) [GET]
+  [4;35;1mSQL (2.5ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 88ms (View: 51, DB: 2) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-09-12 12:38:51) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_spencer (0.6ms)
+Rendered site/_john_mayoras (0.6ms)
+Rendered site/_ashley_henderson (0.6ms)
+Rendered site/_price_koch (0.5ms)
+Completed in 106ms (View: 96, DB: 0) | 200 OK [http://127.0.0.1/partners]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-12 12:38:53) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 233ms (View: 176, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-12 12:38:57) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 76ms (View: 45, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-09-12 12:39:01) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_spencer (0.6ms)
+Rendered site/_john_mayoras (0.6ms)
+Rendered site/_ashley_henderson (0.8ms)
+Rendered site/_price_koch (0.6ms)
+Completed in 107ms (View: 97, DB: 0) | 200 OK [http://127.0.0.1/partners]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:39:02) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 80ms (View: 46, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-09-12 12:39:25) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_spencer (0.6ms)
+Rendered site/_john_mayoras (0.6ms)
+Rendered site/_ashley_henderson (0.6ms)
+Rendered site/_price_koch (0.5ms)
+Completed in 102ms (View: 91, DB: 0) | 200 OK [http://127.0.0.1/partners]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-12 12:39:27) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 76ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:39:28) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 81ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:39:58) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 80ms (View: 45, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:40:26) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 81ms (View: 46, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:41:13) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 80ms (View: 46, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:41:49) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 80ms (View: 46, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:42:00) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 80ms (View: 45, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:42:07) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 81ms (View: 45, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:42:15) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 81ms (View: 45, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:42:20) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 80ms (View: 46, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:42:50) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 79ms (View: 45, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:42:56) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 180ms (View: 146, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:43:31) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 80ms (View: 46, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:50:15) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 82ms (View: 46, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:50:57) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 82ms (View: 46, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-12 12:51:34) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 80ms (View: 47, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:51:42) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 86ms (View: 48, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-12 12:51:46) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 74ms (View: 45, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-09-12 12:51:50) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 110ms (View: 50, DB: 0) | 200 OK [http://127.0.0.1/locations]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:51:53) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 80ms (View: 45, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-09-12 12:52:05) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_spencer (0.7ms)
+Rendered site/_john_mayoras (0.6ms)
+Rendered site/_ashley_henderson (0.6ms)
+Rendered site/_price_koch (0.5ms)
+Completed in 107ms (View: 97, DB: 0) | 200 OK [http://127.0.0.1/partners]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-09-12 12:52:42) [GET]
+  Parameters: {"partner_name"=>"johnspencer"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_spencer (0.6ms)
+Completed in 74ms (View: 64, DB: 0) | 200 OK [http://127.0.0.1/partners?partner_name=johnspencer]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-09-12 12:52:44) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_spencer (0.9ms)
+Rendered site/_john_mayoras (0.6ms)
+Rendered site/_ashley_henderson (0.7ms)
+Rendered site/_price_koch (0.6ms)
+Completed in 110ms (View: 99, DB: 0) | 200 OK [http://127.0.0.1/partners]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-09-12 12:52:45) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 115ms (View: 62, DB: 0) | 200 OK [http://127.0.0.1/locations]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-09-12 12:53:07) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 96ms (View: 49, DB: 0) | 200 OK [http://127.0.0.1/locations]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-12 12:53:36) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 81ms (View: 51, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#send_mail_to_partners (for 127.0.0.1 at 2009-09-12 12:53:38) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/facebox
+Rendering site/send_mail_to_partners
+Completed in 49ms (View: 39, DB: 0) | 200 OK [http://127.0.0.1/send_mail_to_partners]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-09-12 12:53:44) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 94ms (View: 48, DB: 0) | 200 OK [http://127.0.0.1/locations]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-12 12:53:47) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 177ms (View: 148, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-09-12 12:54:13) [GET]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_spencer (0.7ms)
+Rendered site/_john_mayoras (0.7ms)
+Rendered site/_ashley_henderson (0.6ms)
+Rendered site/_price_koch (0.6ms)
+Completed in 103ms (View: 92, DB: 0) | 200 OK [http://127.0.0.1/partners]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-12 12:54:32) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 80ms (View: 46, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-09-12 12:54:36) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 96ms (View: 50, DB: 0) | 200 OK [http://127.0.0.1/locations]
+
+
+Processing SiteController#locations (for 127.0.0.1 at 2009-09-12 13:00:53) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/locations
+Completed in 96ms (View: 48, DB: 0) | 200 OK [http://127.0.0.1/locations]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-09-12 13:00:55) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_spencer (0.8ms)
+Rendered site/_john_mayoras (0.6ms)
+Rendered site/_ashley_henderson (0.7ms)
+Rendered site/_price_koch (0.6ms)
+Completed in 108ms (View: 97, DB: 0) | 200 OK [http://127.0.0.1/partners]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-09-12 13:02:17) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_spencer (0.6ms)
+Rendered site/_john_mayoras (0.6ms)
+Rendered site/_ashley_henderson (0.6ms)
+Rendered site/_price_koch (0.6ms)
+Completed in 204ms (View: 194, DB: 0) | 200 OK [http://127.0.0.1/partners]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-09-12 13:03:24) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_spencer (0.9ms)
+Rendered site/_john_mayoras (0.6ms)
+Rendered site/_ashley_henderson (0.6ms)
+Rendered site/_price_koch (0.6ms)
+Completed in 104ms (View: 94, DB: 0) | 200 OK [http://127.0.0.1/partners]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-12 13:03:31) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 89ms (View: 46, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-09-12 13:03:43) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_spencer (0.7ms)
+Rendered site/_john_mayoras (0.6ms)
+Rendered site/_ashley_henderson (0.6ms)
+Rendered site/_price_koch (0.5ms)
+Completed in 102ms (View: 92, DB: 0) | 200 OK [http://127.0.0.1/partners]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-09-12 13:04:11) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_spencer (0.7ms)
+Rendered site/_john_mayoras (0.8ms)
+Rendered site/_ashley_henderson (0.6ms)
+Rendered site/_price_koch (0.6ms)
+Completed in 109ms (View: 98, DB: 0) | 200 OK [http://127.0.0.1/partners]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-09-12 13:04:11) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_spencer (0.6ms)
+Rendered site/_john_mayoras (0.6ms)
+Rendered site/_ashley_henderson (0.6ms)
+Rendered site/_price_koch (0.5ms)
+Completed in 102ms (View: 92, DB: 0) | 200 OK [http://127.0.0.1/partners]

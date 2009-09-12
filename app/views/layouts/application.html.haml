@@ -44,15 +44,15 @@
           = yield
         .page_footer
           .languages
-            .lang-choice
-              %span{ "id"=>"lang-en"} English 
-              or 
-              %span{ "id"=>"lang-fr"} Spanish 
+            / .lang-choice
+            /   %span{ "id"=>"lang-en"} English 
+            /   or 
+            /   %span{ "id"=>"lang-fr"} Spanish 
           .small_icon
             %img{"src"=>"/images/mini_icon.png", "height"=>"30"}
         .copy_right
           %p 
-            %a{"href"=>"mailto:ken@ashleyandken.com"}Kenderson
+            %a{"href"=>"mailto:ken@kenderson.net"}Kenderson Consulting
             &copy; 
             = DateTime.now.year
         
