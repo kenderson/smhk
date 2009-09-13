@@ -2300,3 +2300,51 @@ Rendered site/_john_mayoras (0.6ms)
 Rendered site/_ashley_henderson (0.6ms)
 Rendered site/_price_koch (0.5ms)
 Completed in 102ms (View: 92, DB: 0) | 200 OK [http://127.0.0.1/partners]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-13 19:48:40) [GET]
+  [4;36;1mSQL (38.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 129ms (View: 83, DB: 38) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-13 19:48:46) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 74ms (View: 45, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-13 19:48:48) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 79ms (View: 46, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-09-13 19:50:34) [GET]
+  Parameters: {"partner_name"=>"pricekoch"}
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_price_koch (0.6ms)
+Completed in 95ms (View: 85, DB: 0) | 200 OK [http://127.0.0.1/partners?partner_name=pricekoch]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-09-13 19:50:43) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_spencer (0.7ms)
+Rendered site/_john_mayoras (0.6ms)
+Rendered site/_ashley_henderson (0.6ms)
+Rendered site/_price_koch (0.6ms)
+Completed in 127ms (View: 117, DB: 0) | 200 OK [http://127.0.0.1/partners]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-09-13 19:50:51) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 73ms (View: 44, DB: 0) | 200 OK [http://127.0.0.1/]
