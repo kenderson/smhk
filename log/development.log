@@ -2348,3 +2348,19 @@ Processing SiteController#index (for 127.0.0.1 at 2009-09-13 19:50:51) [GET]
 Rendering template within layouts/application
 Rendering site/index
 Completed in 73ms (View: 44, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-09-13 19:55:51) [GET]
+  Parameters: {"partner_name"=>"pricekoch"}
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_price_koch (0.6ms)
+Completed in 76ms (View: 66, DB: 0) | 200 OK [http://127.0.0.1/partners?partner_name=pricekoch]
+
+
+Processing SiteController#services (for 127.0.0.1 at 2009-09-13 19:55:53) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/services
+Completed in 166ms (View: 44, DB: 0) | 200 OK [http://127.0.0.1/services]
