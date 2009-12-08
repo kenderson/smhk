@@ -2364,3 +2364,32 @@ Processing SiteController#services (for 127.0.0.1 at 2009-09-13 19:55:53) [GET]
 Rendering template within layouts/application
 Rendering site/services
 Completed in 166ms (View: 44, DB: 0) | 200 OK [http://127.0.0.1/services]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-12-07 21:24:41) [GET]
+  [4;36;1mSQL (13.6ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 103ms (View: 58, DB: 14) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-12-07 21:24:44) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_spencer (0.6ms)
+Rendered site/_john_mayoras (0.6ms)
+Rendered site/_ashley_henderson (0.7ms)
+Rendered site/_price_koch (0.6ms)
+Completed in 162ms (View: 152, DB: 0) | 200 OK [http://127.0.0.1/partners]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-12-07 21:25:41) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_spencer (0.6ms)
+Rendered site/_john_mayoras (0.6ms)
+Rendered site/_ashley_henderson (0.6ms)
+Rendered site/_price_koch (0.6ms)
+Completed in 104ms (View: 94, DB: 0) | 200 OK [http://127.0.0.1/partners]
