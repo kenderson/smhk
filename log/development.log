@@ -2393,3 +2393,72 @@ Rendered site/_john_mayoras (0.6ms)
 Rendered site/_ashley_henderson (0.6ms)
 Rendered site/_price_koch (0.6ms)
 Completed in 104ms (View: 94, DB: 0) | 200 OK [http://127.0.0.1/partners]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-12-10 19:41:55) [GET]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 125ms (View: 85, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-12-10 19:44:26) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_spencer (0.7ms)
+Rendered site/_john_mayoras (0.6ms)
+Rendered site/_ashley_henderson (0.7ms)
+Rendered site/_price_koch (0.6ms)
+Completed in 161ms (View: 151, DB: 0) | 200 OK [http://127.0.0.1/partners]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-12-10 19:52:09) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_spencer (0.7ms)
+Rendered site/_john_mayoras (0.6ms)
+Rendered site/_ashley_henderson (0.6ms)
+Rendered site/_price_koch (0.6ms)
+Completed in 110ms (View: 100, DB: 0) | 200 OK [http://127.0.0.1/partners]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-12-10 19:52:57) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_spencer (0.7ms)
+Rendered site/_john_mayoras (0.6ms)
+Rendered site/_ashley_henderson (0.6ms)
+Rendered site/_price_koch (0.6ms)
+Rendered site/_andy_cornick (0.6ms)
+Completed in 118ms (View: 108, DB: 0) | 200 OK [http://127.0.0.1/partners]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-12-10 19:53:31) [GET]
+  Parameters: {"partner_name"=>"andycornick"}
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_andy_cornick (0.7ms)
+Completed in 77ms (View: 66, DB: 0) | 200 OK [http://127.0.0.1/partners?partner_name=andycornick]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2009-12-10 19:53:38) [GET]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/index
+Completed in 75ms (View: 46, DB: 0) | 200 OK [http://127.0.0.1/]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-12-10 19:53:41) [GET]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_spencer (0.6ms)
+Rendered site/_john_mayoras (0.6ms)
+Rendered site/_ashley_henderson (0.6ms)
+Rendered site/_price_koch (0.6ms)
+Rendered site/_andy_cornick (0.7ms)
+Completed in 119ms (View: 109, DB: 0) | 200 OK [http://127.0.0.1/partners]
