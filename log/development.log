@@ -2462,3 +2462,15 @@ Rendered site/_ashley_henderson (0.6ms)
 Rendered site/_price_koch (0.6ms)
 Rendered site/_andy_cornick (0.7ms)
 Completed in 119ms (View: 109, DB: 0) | 200 OK [http://127.0.0.1/partners]
+
+
+Processing SiteController#partners (for 127.0.0.1 at 2009-12-10 20:38:47) [GET]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+Rendering template within layouts/application
+Rendering site/partners
+Rendered site/_john_spencer (0.6ms)
+Rendered site/_john_mayoras (0.6ms)
+Rendered site/_ashley_henderson (0.6ms)
+Rendered site/_price_koch (0.6ms)
+Rendered site/_andy_cornick (0.6ms)
+Completed in 123ms (View: 113, DB: 0) | 200 OK [http://127.0.0.1/partners]
