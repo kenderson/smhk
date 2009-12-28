@@ -33,7 +33,7 @@ body
   font-family: helvetica
   font-size: 13px
   font-weight: normal
-  background: #909090 url(/images/site_bg_b.png) top left repeat-x 
+  background: #909090 url(/images/site_bg_b.jpg) top left repeat-x 
 a
   color = !a_color
   text-decoration: none
@@ -73,6 +73,10 @@ h3
   background: #fff url(/images/content_fade_b.png) top left repeat-x
   padding: 15px
   color = !text_color
+.accent_orange
+  color = !header_accent
+.muted
+  color: #999
 
 /*
 /* Menu CSS
@@ -157,7 +161,6 @@ h3
   float: right
   width: 215px
   padding: 0px 20px
-
 .left_content
   margin: 0px 260px 0px 0px
   padding: 0px 20px 0px 0px
@@ -386,3 +389,32 @@ h3
   height: 0
   clear: both
   visibility: hidden
+  
+/*
+/* blog_css
+/*
+
+.left_column
+  float: left
+  width: 580px
+  padding-right: 20px
+  border-right: 1px solid #efefef 
+  
+.right_column
+  float: right
+  width: 230px
+  padding: 10px
+.blog_pad
+  padding: 10px 0px
+.options_link
+  font-size: 12px
+  font-style: italic
+  color: #999
+.posted_by
+  padding: 0px 0px 15px 0px
+  font-size: 12px
+.spacer_rule
+  width: 400px
+  height: 20px
+  margin: 0px auto
+  background: transparent url(/images/spacer_rule.gif) top left no-repeat

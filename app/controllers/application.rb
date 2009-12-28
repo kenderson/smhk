@@ -2,18 +2,10 @@
 # Likewise, all the methods added will be available for all controllers.
 
 class ApplicationController < ActionController::Base
+  include AuthenticatedSystem
   helper :all # include all helpers, all the time
+  protect_from_forgery # See ActionController::RequestForgeryProtection for details
 
-  # See ActionController::RequestForgeryProtection for details
-  # Uncomment the :secret if you're not using the cookie session store
-  # protect_from_forgery # :secret => '1623cbc4760531cdd8331113e0811810'
-  
-  # See ActionController::Base for details 
-  # Uncomment this to filter the contents of submitted sensitive data parameters
-  # from your application log (in this case, all fields with names like "password"). 
+  # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
-  # controllers/registration_controller.rb
-  # assume the Registration controller already existed
-  # assume @user.name and @user.email have been declared
-
 end
