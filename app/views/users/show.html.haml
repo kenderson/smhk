@@ -1,0 +1,7 @@
+= render :partial => @user
+%p
+  = link_to 'Edit', edit_user_path(@user), :class=>"facebox"
+  |
+  = link_to 'Destroy', @user, :method => :delete, :confirm => "Are you sure?"
+  |
+  = link_to 'See All Users', users_path

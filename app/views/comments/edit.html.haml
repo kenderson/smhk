@@ -1,0 +1,7 @@
+%h1 Editing comment
+= error_messages_for :comment
+- form_for(@comment) do |f|
+  = render :partial=>"form", :locals=>{:f=>f}
+  = submit_tag "Update" 
+  or
+  = link_to 'Back', comments_path

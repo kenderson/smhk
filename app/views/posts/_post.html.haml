@@ -1,0 +1,23 @@
+- div_for post do
+  %h2.accent_orange
+    = link_to_unless_current h(post.title), post
+    - if logged_in?
+      %span.options_link
+        (
+        = link_to 'Edit', edit_post_path(post)
+        &nbsp; - &nbsp;
+        = link_to 'Destroy', post, :method => :delete, :confirm => "Are you sure?"
+        &nbsp; - &nbsp;
+        = link_to 'See All Posts', posts_path
+        )
+  = simple_format h(post.body)
+  .posted_by.muted
+    Posted by
+    = h(post.user.login)
+    on
+    = h(post.created_at.strftime("%m/%d/%Y"))
+    &nbsp; - &nbsp;
+    Comments (
+    = post.comments.count
+    )
+  .spacer_rule
