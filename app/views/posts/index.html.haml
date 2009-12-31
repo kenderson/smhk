@@ -4,7 +4,10 @@
     %span.options_link
       - if logged_in?
         = link_to 'Create a new post?', new_post_path, :class=>"facebox"
-  = render :partial => @posts
+  - if @posts.empty?
+    .empty_blog_message There are no posts yet, check back later!
+  - else
+    = render :partial => @posts
 .right_column
   .resource_list
     #twitter_div
@@ -12,5 +15,13 @@
       %h3 Arlington Bar Twitter News
       %ul#twitter_update_list
         %li Twiiter Updates
+  .resource_list
+    #twitter_div
+      %h2 Blog Archive
+      %ul
+        %li 
+          %i Coming Soon!
+
+
 %script{:type=>"text/javascript", :src=>"http://twitter.com/javascripts/blogger.js"}
 %script{:type=>"text/javascript", :src=>"http://twitter.com/statuses/user_timeline/arlingtonbar.json?callback=twitterCallback2&amp;count=5"}  

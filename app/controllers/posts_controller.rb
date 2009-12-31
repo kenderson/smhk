@@ -1,7 +1,7 @@
 class PostsController < ApplicationController
   before_filter :login_required, :except => [:index, :show]
   def index
-    @posts = Post.all
+    @posts = Post.ordered
     @users = User.all
     respond_to do |format|
       format.html # index.html.erb
@@ -12,7 +12,7 @@ class PostsController < ApplicationController
   end
   def show
     @post = Post.find(params[:id])
-    @post_comments = @post.comments
+    @post_comments = @post.comments.ordered
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @post }
@@ -27,6 +27,9 @@ class PostsController < ApplicationController
   end
   def edit
     @post = Post.find(params[:id])
+    respond_to do |format|
+      format.html { render :layout => "facebox"}
+    end
   end
   def create
     @post = Post.new(params[:post])

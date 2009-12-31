@@ -20,36 +20,48 @@
 
   .left_content
     %h1.main_head Our Services
-    .services_wrap    
-      %h2 Traffic Violations
-      %ul 
-        %li Speeding
-        %li Reckless Driving
-        %li No Valid Operator's License
-        %li Driving on Suspended
-        %li DUI/DWI
-      %h2 Misdemeanors
-      %ul 
-        %li Disorderly Conduct
-        %li Trespass
-      %h2 Theft Offenses
-      %ul 
-        %li Shoplifting
-        %li Petit Larceny
-        %li Grand Larceny
-        %li Embezzlement
-        %li Burglary
-        %li Robbery 
-      %h2 Sex Offenses
-      %h2 Computer Crimes
-      %h2 Drug Offenses
-      %ul
-        %li Possession
-        %li Distribution
-      %h2 Probation Violations
-      %h2 Assault Offenses
-      %ul
-        %li Assault & Battery
-        %li Domestic Assault
-        %li Malicious Wounding
-        %li Murder
+    %p 
+      Hover over the service with your mouse for more details on the service. Feel free to
+      %a{"href"=>"/locations"} call
+      or
+      %a{"href"=>"mailto:partners@smhklaw.com"}email
+      if you have questions about a specific service or if you need help with something that is not listed below.
+    %table.services_table
+      %tr
+        %td.vertical_alignment
+          .services_wrap    
+            %h2 Traffic Violations
+            %ul 
+              %li Speeding
+              %li Reckless Driving
+              %li No Valid Operator's License
+              %li Driving on Suspended
+              %li DUI/DWI
+            %h2 Theft Offenses
+            %ul 
+              %li Shoplifting
+              %li Petit Larceny
+              %li Grand Larceny
+              %li Embezzlement
+              %li Burglary
+              %li Robbery 
+            %h2 Sex Offenses
+            %h2 Computer Crimes
+
+        %td.vertical_alignment
+          .services_wrap    
+            %h2 Drug Offenses
+            %ul
+              %li Possession
+              %li Distribution
+            %h2 Assault Offenses
+            %ul
+              %li Assault & Battery
+              %li Domestic Assault
+              %li Malicious Wounding
+              %li Murder
+            %h2 Misdemeanors
+            %ul 
+              %li Disorderly Conduct
+              %li Trespass          
+            %h2 Probation Violations

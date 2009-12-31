@@ -29,10 +29,15 @@ class CommentsController < ApplicationController
   def create
     @comment = Comment.new(params[:comment])
     respond_to do |format|
-      if @comment.save
-        flash[:notice] = "Thank You for your Comment!"
-        format.html {redirect_to(@comment.post)}
-        format.js
+      if verify_recaptcha
+        if @comment.save
+          flash[:notice] = "Thank You for your Comment!"
+          format.html {redirect_to(@comment.post)}
+          format.js  
+        end
+      else
+        flash[:error] = "There was an error with the recaptcha code below. Please re-enter the code and click submit." 
+        render :action => 'new'
       end
     end
   end

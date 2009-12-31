@@ -4,7 +4,7 @@
     - if logged_in?
       %span.options_link
         (
-        = link_to 'Edit', edit_post_path(post)
+        = link_to 'Edit', edit_post_path(post), :class=>"facebox"
         &nbsp; - &nbsp;
         = link_to 'Destroy', post, :method => :delete, :confirm => "Are you sure?"
         &nbsp; - &nbsp;
@@ -17,7 +17,6 @@
     on
     = h(post.created_at.strftime("%m/%d/%Y"))
     &nbsp; - &nbsp;
-    Comments (
     = post.comments.count
-    )
+    Comments
   .spacer_rule

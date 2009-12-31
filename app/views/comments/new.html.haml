@@ -2,6 +2,7 @@
 = error_messages_for :comment
 - form_for(@comment) do |f|
   = render :partial=>"form", :locals=>{:f=>f}
+  %p= recaptcha_tags(:ajax => true)
   = submit_tag "Create"
   or
   = link_to 'Back', comments_path

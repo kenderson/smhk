@@ -1,4 +1,7 @@
 class SiteController < ApplicationController
+  def index
+    @posts = Post.recent
+  end
   def contact
   end
   def partners

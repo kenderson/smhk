@@ -1,2 +1,5 @@
 %p= f.hidden_field :post_id
-%p= f.text_area :body
+%p= f.label :name, "Your Name (optional)"
+%p= f.text_field :name
+%p= f.label :body, "Your Comment"
+%p= f.text_area :body, :rows => 20, :cols=>160, :style=>"width:475px;"

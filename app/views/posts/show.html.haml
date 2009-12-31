@@ -15,8 +15,14 @@
         Posted
         = time_ago_in_words(comment.created_at )
         ago
+        - if comment.name
+          %span 
+            by 
+            = h(comment.name)
+        - else
+          %span anonymously
       %div
-        = comment.body
+        %i= comment.body
       %div
         - if logged_in?
           = link_to 'Edit', edit_comment_path(comment), :class=>"facebox"

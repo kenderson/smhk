@@ -21,7 +21,16 @@
           %a.btn.green.facebox{"href"=>"/send_mail_to_friend"} Send this page to a friend
         %li 
           %a.btn.green{"href"=>"/locations"} View full contact information
-        
+    - if !@posts.empty?
+      .small_blog
+        %h2 Recent Blog Posts
+        %ul  
+          - @posts.each do |post|
+            %li 
+              .small_blog_title= link_to_unless_current h(post.title), post
+              .small_blog_body
+                = truncate(post.body, :length=>100)
+                %span= link_to_unless_current "view full post", post
   .left_content
     %h1.main_head Spencer, Mayoras, Henderson, &amp; Koch, PLC
     .index_text{"langtag"=>"description"}
