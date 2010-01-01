@@ -1,7 +1,10 @@
 - div_for user do
-  %h2= link_to h(user.login), user
+  %h2= link_to h(user.formal_name), user
   = simple_format h(user.email) 
   %p
     = link_to 'Edit', edit_user_path(user), :class=>"facebox"
     |
-    = link_to 'Destroy', user, :method => :delete, :confirm => "Are you sure?"  
+    = link_to 'Destroy', user, :method => :delete, :confirm => "Are you sure?"
+    |
+    = link_to 'See All Users', users_path
+    

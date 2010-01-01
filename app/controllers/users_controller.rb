@@ -29,18 +29,32 @@ class UsersController < ApplicationController
   end
   def create
     @user = User.new(params[:user])
-    
     respond_to do |format|
-      if @post.save
+      if @user.save
         flash[:notice] = 'Post was successfully created.'
-        format.html { redirect_to(@post) }
-        format.xml  { render :xml => @post, :status => :created, :location => @post }
+        format.html { redirect_to(@user) }
+        format.xml  { render :xml => @user, :status => :created, :location => @user }
       else
         format.html { render :action => "new" }
-        format.xml  { render :xml => @post.errors, :status => :unprocessable_entity }
+        format.xml  { render :xml => @user.errors, :status => :unprocessable_entity }
       end
     end
   end
+  def update
+    @user = User.find(params[:id])
+
+    respond_to do |format|
+      if @user.update_attributes(params[:user])
+        flash[:notice] = 'Post was successfully updated.'
+        format.html { redirect_to(@user) }
+        format.xml  { head :ok }
+      else
+        format.html { render :action => "edit" }
+        format.xml  { render :xml => @user.errors, :status => :unprocessable_entity }
+      end
+    end
+  end
+
   def destroy
     @user = User.find(params[:id])
     @user.destroy

@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091231221027) do
+ActiveRecord::Schema.define(:version => 20091231232830) do
 
   create_table "comments", :force => true do |t|
     t.integer  "post_id"
@@ -36,6 +36,7 @@ ActiveRecord::Schema.define(:version => 20091231221027) do
     t.datetime "updated_at"
     t.string   "remember_token"
     t.datetime "remember_token_expires_at"
+    t.string   "formal_name"
   end
 
 end

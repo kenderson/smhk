@@ -13,7 +13,7 @@
   = simple_format h(post.body)
   .posted_by.muted
     Posted by
-    = h(post.user.login)
+    = h(post.user.formal_name)
     on
     = h(post.created_at.strftime("%m/%d/%Y"))
     &nbsp; - &nbsp;
