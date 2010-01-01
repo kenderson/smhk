@@ -1,10 +1,14 @@
 - div_for user do
-  %h2= link_to h(user.formal_name), user
+  %h2
+    = link_to h(user.formal_name), user
+    - if user.login == current_user.login or current_user.login == "admin"
+      %span.options_link
+        (
+        = link_to 'Edit', edit_user_path(user), :class=>"facebox"
+        &nbsp; - &nbsp;
+        = link_to 'Destroy', user, :method => :delete, :confirm => "Are you sure?"    
+        &nbsp; - &nbsp;
+        = link_to 'See All Users', users_path    
+        )
   = simple_format h(user.email) 
-  %p
-    = link_to 'Edit', edit_user_path(user), :class=>"facebox"
-    |
-    = link_to 'Destroy', user, :method => :delete, :confirm => "Are you sure?"
-    |
-    = link_to 'See All Users', users_path
     

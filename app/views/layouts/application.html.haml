@@ -45,6 +45,10 @@
               %a{"href"=>"/locations", :class=>((params['action'] == "locations") ? "current" : "")} Locations
             %li 
               %a{"href"=>"/posts", :class=>((params['action'] == "index" && params['controller'] == "posts" ) ? "current" : "")} News Blog
+            - if logged_in?
+              %li 
+                %a{"href"=>"/users", :class=>((params['action'] == "index" && params['controller'] == "users" ) ? "current" : "")} SMHK Law Users
+              
               
 
         .content_wrap.clearfix
