@@ -1,7 +1,8 @@
 %h1 
   SMHKLAW Law Users
-  %span.options_link
-    (
-    = link_to 'New User', new_user_path, :class=>"facebox"
-    )
+  - if current_user.login == "admin"
+    %span.options_link
+      (
+      = link_to 'New User', new_user_path, :class=>"facebox"
+      )
 = render :partial => @users

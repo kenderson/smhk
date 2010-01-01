@@ -490,6 +490,11 @@ h3 {
   margin: 0px auto;
   background: transparent url(/images/spacer_rule.gif) top left no-repeat; }
 
+.spacer_rule_left {
+  width: 400px;
+  height: 20px;
+  background: transparent url(/images/spacer_rule.gif) center left no-repeat; }
+
 .small_blog h2 {
   padding-bottom: 10px; }
 

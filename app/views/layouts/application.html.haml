@@ -56,8 +56,8 @@
         .page_footer
           .languages
             - if logged_in?
-              = h current_user.login 
-              is logged in!
+              = h current_user.formal_name 
+              is logged in! &nbsp;
               = link_to 'Log Out?', '/logout'
             - else
               = link_to 'Partner Log In', '/login', :class=>"facebox"
@@ -70,8 +70,11 @@
             %img{"src"=>"/images/mini_icon.png", "height"=>"30"}
         .copy_right
           %p 
-            %a{"href"=>"mailto:ken@kenderson.net"}Kenderson Consulting
-            &copy; 
+            Designed and Maintained by
+            %br
+            %a{"href"=>"http://www.kenderson.net"} Kenderson Consulting
+            %br
+            &copy; 2009 - 
             = DateTime.now.year
         
 %script{"type"=>"text/javascript"}
