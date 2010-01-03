@@ -1,6 +1,13 @@
 var map_switching_time = 2000;
-var load_string_in = "#(test)-(test)"
 jQuery(document).ready(function($) {
+  $('.partners_menu_flyout').hover(  
+    function () {$("li.partners_menu a.parent_a").addClass("grey_color");},   
+    function () {$("li.partners_menu a.parent_a").removeClass("grey_color");}  
+  );
+  $('li.partners_menu').hover(  
+    function () {$('.partners_menu_flyout', this).slideDown(100);},   
+    function () {$('.partners_menu_flyout', this).slideUp(100);}  
+  );
   $("#smhkform").validate();
   $("#lang-en").click(function(){
     $("body").changeLang({lang: "en", file: "../files/lang-example.xml"});

@@ -25,8 +25,8 @@
           %ul.clearfix
             %li 
               %a{"href"=>"/"} Home
-            %li.partners_menu{"onmouseover"=>"$('.partners_menu_flyout').show();","onmouseout"=>"$('.partners_menu_flyout').hide();"} 
-              %a{"href"=>"/partners", :class=>((params['action'] == "partners") ? "current" : "")} Partners
+            %li.partners_menu
+              %a.parent_a{"href"=>"/partners", :class=>((params['action'] == "partners") ? "current" : "")} Partners
               .partners_menu_flyout{"style"=>"display:none;"}
                 .menu_sub_div 
                   %a{"href"=>"/partners?partner_name=johnspencer"} John Spencer
