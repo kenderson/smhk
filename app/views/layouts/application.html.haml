@@ -6,10 +6,9 @@
     %link{"rel"=>"shortcut icon", "href"=>"/images/favicon.ico"}
     = stylesheet_link_tag("ui.all.css","facebox.css","btn.css","application.css","jquery.lightbox-0.5.css",:media => 'screen, projection')
     / = auto_discovery_link_tag :atom, posts_path(:atom)
-    = javascript_include_tag('jquery-1.3.1.js', 'jquery-ui-personalized-1.6rc6.js', "facebox.js", 'jquery.bgiframe.min.js', 'jquery.livequery.min.js', 'application.js', 'langchange.js', 'jquery.validate.js', "btn.js", "jquery.lightbox-0.5.min.js",'http://api.recaptcha.net/js/recaptcha_ajax.js','jquery.qtip-1.0.0-rc3.min.js')
+    = javascript_include_tag('jquery-1.3.2.min.js', "facebox.min.js", 'jquery.bgiframe.min.js', 'jquery.livequery.min.js', 'application.min.js', 'http://ajax.microsoft.com/ajax/jquery.validate/1.6/jquery.validate.min.js', "btn.min.js", "jquery.lightbox-0.5.min.js", 'http://api.recaptcha.net/js/recaptcha_ajax.js', 'jquery.qtip-1.0.0-rc3.min.js')
     /[if IE]
     = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
-    %script{"src"=>"http://codinginparadise.org/projects/purple-include/purple-include.js"}
 %body
   #body_wrap
     #page_frame
