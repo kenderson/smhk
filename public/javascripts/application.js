@@ -57,5 +57,4 @@ jQuery(document).ready(function($) {
           }, time);
       });
   };
-  
 });

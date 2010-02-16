@@ -6,7 +6,11 @@
     %link{"rel"=>"shortcut icon", "href"=>"/images/favicon.ico"}
     = stylesheet_link_tag("ui.all.css","facebox.css","btn.css","application.css","jquery.lightbox-0.5.css",:media => 'screen, projection')
     / = auto_discovery_link_tag :atom, posts_path(:atom)
-    = javascript_include_tag('jquery-1.3.2.min.js', "facebox.min.js", 'jquery.bgiframe.min.js', 'jquery.livequery.min.js', 'application.min.js', 'http://ajax.microsoft.com/ajax/jquery.validate/1.6/jquery.validate.min.js', "btn.min.js", "jquery.lightbox-0.5.min.js", 'http://api.recaptcha.net/js/recaptcha_ajax.js', 'jquery.qtip-1.0.0-rc3.min.js')
+    = javascript_include_tag('jquery-1.3.2.min.js', "facebox.js", 'jquery.bgiframe.min.js', 'jquery.livequery.min.js', 'application.js', 'http://ajax.microsoft.com/ajax/jquery.validate/1.6/jquery.validate.min.js', "btn.min.js", "jquery.lightbox-0.5.min.js", 'http://api.recaptcha.net/js/recaptcha_ajax.js', 'jquery.qtip-1.0.0-rc3.min.js','jquery.tinymce.js','tinymce_config.js')
+    %script{:type=>"text/javascript", :src=>"/javascripts/jquery-1.3.2.min.js"}
+    %script{:type=>"text/javascript", :src=>"/javascripts/jquery.tinymce.js"}
+    %script{:type=>"text/javascript", :src=>"/javascripts/tinymce_config.js"}
+
     /[if IE]
     = stylesheet_link_tag 'ie.css', :media => 'screen, projection'
 %body
@@ -28,15 +32,15 @@
               %a.parent_a{"href"=>"/partners", :class=>((params['action'] == "partners") ? "current" : "")} Partners
               .partners_menu_flyout{"style"=>"display:none;"}
                 .menu_sub_div 
-                  %a{"href"=>"/partners?partner_name=johnspencer"} John Spencer
+                  %a{"href"=>"/partners?partner_name=johnspencer"} John M. Spencer
                 .menu_sub_div
-                  %a{"href"=>"/partners?partner_name=johnmayoras"} John Mayoras
+                  %a{"href"=>"/partners?partner_name=johnmayoras"} John D. Mayoras
                 .menu_sub_div
-                  %a{"href"=>"/partners?partner_name=ashleyhenderson"} Ashley Henderson
+                  %a{"href"=>"/partners?partner_name=ashleyhenderson"} Ashley P. Henderson
                 .menu_sub_div
-                  %a{"href"=>"/partners?partner_name=pricekoch"} Price Koch
+                  %a{"href"=>"/partners?partner_name=pricekoch"} G. Price Koch
                 .menu_sub_div
-                  %a{"href"=>"/partners?partner_name=andycornick"} Andrew Cornick
+                  %a{"href"=>"/partners?partner_name=andycornick"} Andrew J. Cornick
                 
             %li 
               %a{"href"=>"/services", :class=>((params['action'] == "services") ? "current" : "")} Services
@@ -75,7 +79,7 @@
             %br
             &copy; 2009 - 
             = DateTime.now.year
-        
+
 %script{"type"=>"text/javascript"}
   var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www."); document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 

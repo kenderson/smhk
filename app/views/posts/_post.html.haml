@@ -10,13 +10,10 @@
         &nbsp; - &nbsp;
         = link_to 'See All Posts', posts_path
         )
-  = simple_format h(post.body)
+  = simple_format post.body
   .posted_by.muted
     Posted by
     = h(post.user.formal_name)
     on
     = h(post.created_at.strftime("%m/%d/%Y"))
-    &nbsp; - &nbsp;
-    = post.comments.count
-    Comments
   .spacer_rule
