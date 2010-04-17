@@ -38,7 +38,6 @@ jQuery(document).ready(function($) {
   });
   $('#facebox').bgiframe();
   $("a.facebox").facebox();
-  $("#datepicker").datepicker();
   $("#fairfax span").click(function(){
     $("#fredericksburg_map").hide(map_switching_time);
     $("#fairfax_map").show(map_switching_time);
