@@ -191,6 +191,13 @@ h3 {
   padding: 0px 20px 0px 0px;
   border-right: 1px solid #efefef; }
 
+.index_photo_live {
+  background: #fff url(/images/group_photo1.jpg) top left no-repeat;
+  float: right;
+  height: 188px;
+  width: 350px;
+  margin: 0px 0px 10px 0px; }
+
 .index_photo {
   float: right;
   height: 200px;
