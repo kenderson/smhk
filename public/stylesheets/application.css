@@ -86,6 +86,9 @@ h3 {
 .vertical_alignment {
   vertical-align: top; }
 
+strong {
+  color: #bbb; }
+
 /*  */
 /* Menu CSS */
 /*  */
