@@ -1,4 +1,5 @@
-class SiteController < ApplicationController
+class SiteController < ApplicationController  
+  protect_from_forgery :except => [:send_mail_to_partners, :send_mail_to_friend]
   def index
     @posts = Post.recent
   end
