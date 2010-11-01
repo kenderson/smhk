@@ -268,6 +268,11 @@ strong {
 .partners_wrap {
   padding: 0px 0px 20px 0px; }
 
+.partners_wrap span {
+  float: right;
+  font-style: italic;
+  color: #999; }
+
 .bio_wrap {
   padding: 0px 0px 0px 0px; }
 
@@ -288,8 +293,8 @@ strong {
 
 .bio_image {
   float: left;
-  height: 150px;
-  width: 200px;
+  height: 166px;
+  width: 138px;
   border: 1px solid #ddd;
   background: #efefef; }
 
@@ -301,7 +306,7 @@ strong {
   padding: 20px 0px; }
 
 .bio_text {
-  margin: 0px 0px 0px 210px; }
+  margin: 0px 0px 0px 160px; }
 
 .bio_text p {
   margin: 0px 0px 15px 0px; }
